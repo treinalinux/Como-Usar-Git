@@ -93,10 +93,21 @@ git commit -m 'novidades: melhorias na compressão dos backups'
 ```
 
 
-####  
+#### SHOW 
+
+Comando que mostra detalhes de um commit, 'e6e3848' é um Hash (identificador) do commit de interesse.
 
 ```bash
+git show e6e3848
+```
 
+
+#### LOG
+
+Mostra uma lista interativa de commits com o hash e a mensagem de cada commit.
+
+```bash
+git log
 ```
 
 
