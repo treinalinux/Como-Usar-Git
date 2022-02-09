@@ -111,3 +111,47 @@ git log
 ```
 
 
+#### BRANCH
+
+A ramificação é um recurso disponível na maioria dos sistemas de controle de versão mais modernos.
+
+Comando para criar um novo branch. Caso sua  branch atual for master, recomendo usar com '-M main'.
+
+```bash
+git branch novidades
+```
+
+Para renomear branch do nome antigo para main.
+
+```bash
+git branch -M main
+```
+
+Para listar as branches existentes.
+
+```bash
+git branch
+
+```
+
+Para deletar uma branch.
+
+```bash
+git branch -D novidades
+```
+
+#### CHECKOUT
+
+É o ato de alternar entre versões diferentes de uma entidade de destino.
+
+Para criar uma nova branch e mudar para ela use:
+
+```bash
+git checkout -b novidades
+```
+
+Para mudar entre as branches
+
+```bash
+git checkout main
+```
